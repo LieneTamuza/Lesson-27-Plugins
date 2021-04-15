@@ -1,4 +1,4 @@
-$('.smallImg img').hover(function() {
-    const largeImgLink = $(this).attr('src');
-    $('#largeImg').attr('src', largeImgLink);
+$('.thumbnail-img').hover(function() {
+    const imageUrl = $(this).attr('src');
+    $('#main-img').attr('src', imageUrl);
 });
